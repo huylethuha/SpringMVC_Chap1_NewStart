@@ -1,0 +1,19 @@
+//CommonZipCodeService.java
+package com.samsung.isbp.com;
+
+import java.util.List;
+import java.util.Map;
+
+import com.samsung.isbp.com.entity.ZipCodeVO;
+
+public interface CommonZipCodeService {
+
+
+	public List<ZipCodeVO> getCityList(Map<String,Object> prms);
+
+	public List<ZipCodeVO> getZipCodeList(Map<String, Object> prms);
+
+	public Map<String, Object> getAddrApi(Map<String, Object> prms);
+
+
+}
